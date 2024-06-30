@@ -1,11 +1,9 @@
-import Button from "./components/Button/Button";
+import Form from "./components/Form";
 
 function app() {
   return (
     <div>
-      <Button color="primary" onClick={() => {}}>
-        My Button
-      </Button>
+      <Form />
     </div>
   );
 }
